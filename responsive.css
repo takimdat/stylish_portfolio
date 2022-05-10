@@ -1,0 +1,39 @@
+/* Tablet && Mobile */
+@media (max-width: 63.9375em){
+    .recent-item{
+        padding: 50% 6% 5%;
+        margin: 20px 0;
+    }
+    .recent-item-two{
+       padding: 50% 6% 5%;
+       margin: 20px 0;
+   }
+   .recent-item-three{ 
+       padding: 50% 6% 5%;
+       margin: 20px 0;
+   }
+   .recent-item-for{
+       padding: 50% 6% 5%;
+       margin: 20px 0;
+   }
+   .map{
+    background-size: cover;
+    padding: 24%;
+   }
+   footer{
+    padding: 40px 0 20px;
+   }
+}
+/* Mobile */
+@media (max-width: 46.1875em){
+    .heading{
+        font-size: 7rem;
+    }
+    .welcome{
+        padding: 30% 0;
+    }
+    .map{
+        background-size: cover;
+        padding: 36%;
+    }
+}

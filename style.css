@@ -1,0 +1,191 @@
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+header{
+    background: url(../CSS-FW.M.A103/resources/images/bg-masthead.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 18% 0;
+}
+.icon{
+    top: 10px;
+    right: 10px;
+    padding: 10px 14px;
+    border-radius: 2px;
+    background-color: rgb(0, 0, 0,0.4);
+    cursor: pointer;
+}
+.heading{
+    font-size: 8rem;
+    font-weight: 700;
+}
+.heading-content{
+    font-size: 2.2rem;
+    font-style:italic;
+    font-weight: 700;
+}
+.welcome .btn,
+header .btn{
+    font-size: 1.4rem;
+    background-color: #1d809f;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.welcome .btn:hover,
+header .btn:hover{
+    background-color: rgb(89, 175, 201);
+}
+/* stylish */
+.stylish{
+    padding: 90px 0;
+}
+.stylish .heading{
+    font-size: 2.8rem;
+}
+.stylish .heading-content{
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgb(97, 93, 93);
+}
+.stylish a{
+    text-decoration: none;
+    color: #1d809f;
+}
+.stylish .btn{
+    background-color: rgb(56, 54, 54);
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.stylish .btn:hover{
+    background-color: rgb(90, 86, 86);
+}
+
+/* service */
+.service{
+    background-color: #1d809f;
+    padding: 90px 0;
+}
+.service p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(230, 189, 9);
+}
+.service h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+.service .box-icon i{
+    background-color: white;
+    border-radius: 50%; 
+    font-size: 3rem;
+    color: #1d809f;
+    padding: 30px;
+    margin: 30px 0 16px;
+    display: inline-block;
+}
+.service .icon-heading{
+    font-size: 2.1rem;
+}
+.service .icon-info{
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255,0.7);
+}
+
+ /* welcome */
+ .welcome{
+     background: url(../CSS-FW.M.A103/resources/images/bg-callout.jpg) center center no-repeat;
+     background-size: cover;
+     padding: 13% 0;
+}
+ .welcome h2{
+     font-size: 5rem;
+     max-width: 41rem;
+ }
+
+ /* recent */
+ .recent{
+     padding: 80px 0;
+ }
+ .recent-item{
+     background: url(../CSS-FW.M.A103/resources/images/portfolio-1.jpg) center center no-repeat;
+     padding: 17% 6% 5%;
+     background-size: cover;
+ }
+ .recent-item-two{
+    background: url(../CSS-FW.M.A103/resources/images/portfolio-2.jpg) center center no-repeat;
+    padding: 17% 6% 5%;
+    background-size: cover;
+}
+.recent-item-three{
+    background: url(../CSS-FW.M.A103/resources/images/portfolio-3.jpg) center center no-repeat;
+    padding: 17% 6% 5%;
+    background-size: cover;
+}
+.recent-item-for{
+    background: url(../CSS-FW.M.A103/resources/images/portfolio-4.jpg) center center no-repeat;
+    padding: 17% 6% 5%;
+    background-size: cover;
+}
+ .recent>p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(230, 189, 9);
+ }
+ .recent h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 36px;
+ }
+ .recent h3{
+     font-size: 3rem;
+     text-shadow: 0 0 2px rgb(87, 83, 83);
+ }
+ .recent .recent-list p{
+     font-size: 1.6rem;
+     color: rgb(255, 255, 255,0.8);
+ }
+
+ /* the button */
+.the-button{
+    background-color:#1d809f;
+    padding: 90px 0;
+}
+.the-button .btn-two,
+.the-button .btn-one{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 16px 22px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+.the-button .btn-two{
+    background-color: rgb(39, 37, 37);
+}
+
+.map{
+    background: url(../CSS-FW.M.A103/resources/images/map.PNG) no-repeat;
+    background-size: contain;
+    padding: 15%;
+
+}
+/* footer */
+footer .media i{
+    font-size: 3rem;
+    padding: 14px;
+    border-radius: 50%;
+    background-color:#1d809f;
+    margin: 0 10px;
+}
+footer p{
+    color: rgb(148, 134, 134);
+}
