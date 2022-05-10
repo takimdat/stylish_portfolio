@@ -119,6 +119,12 @@ header .btn:hover {
   padding: 17% 6% 5%;
   background-size: cover;
 }
+.recent-item:hover,
+.recent-item-two:hover,
+.recent-item-three:hover,
+.recent-item-for:hover {
+  filter: opacity(0.8);
+}
 .recent-item-two {
   background: url(./resources/images/portfolio-2.jpg) center center no-repeat;
   padding: 17% 6% 5%;
